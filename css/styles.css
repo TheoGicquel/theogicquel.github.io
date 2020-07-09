@@ -546,8 +546,14 @@ footer {
 }
 
 .project-image {
-	float: left
+	float: left;
 }
+
+.project-image img{
+ max-width: 300px;
+ max-height: 300px;
+}
+
 
 .project-info {
 	position: absolute;
@@ -824,8 +830,15 @@ footer {
 		float: none
 	}
 	.project-image {
-		display: none
+		display: none;
+	} /* mod img*/
+
+	.project-image img{
+		max-width: 20px;
+		max-height: 20px;
 	}
+
+
 	.project-info {
 		position: relative;
 		margin: 0;
