@@ -14,7 +14,7 @@
 
     // Remove no-js class
     $('html').removeClass('no-js');
-
+/*
     // Animate to section when nav is clicked
     $('header a').click(function(e) {
 
@@ -34,7 +34,7 @@
             $('header, body').removeClass('active');
         }
     });
-
+*/
     // Scroll to top
     $('#to-top').click(function() {
         $('html, body').animate({
