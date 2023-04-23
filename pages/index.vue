@@ -1,15 +1,26 @@
 <template>
-    <Navbar />
-    <div class="flex h-auto">
-        <div class="m-auto">
-<h1 class="text-3xl font-bold underline">
-      Hi i'm Theo
-    </h1>
-    <button >
-      <a  class="btn btn-primary" href="/static/cv.pdf">CV</a>
-    </button>
-        </div>
-    
+  <Navbar />
+<div class="min-h-screen hero bg-base-200">
+  <div class="text-center hero-content">
+    <div class="max-w-md">
+      <h1 class="text-5xl font-bold">Hello there</h1>
+      <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-primary">Get Started</button>
     </div>
+  </div>
+</div>
+<Footer/>
 
   </template>   
+  <script lang="js">
+  export default {
+    head() {
+      return {
+        title: 'Payment Page - My awesome project', // Other meta information
+        script: [
+          { hid: 'stripe', src: '', defer: true }
+        ]
+      }
+    }
+  }
+</script>
