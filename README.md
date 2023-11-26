@@ -1,34 +1,38 @@
-# ParticleGround-Portfolio
-https://youtu.be/fjZPisAjxPg
-A particle-theme template as a landing page for your portfolio.
+# create-svelte
 
-> [Demo](https://landing-page--itsron717.repl.co/)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-<img src="particle_demo/particle_demo.png"/>
+## Creating a project
 
-# Using the Template
+If you're seeing this, you've probably already done this step. Congrats!
 
-  - Fork and Clone the repository
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-    ```
-    $ git clone https://github.com/itsron717/ParticleGround-Portfolio.git
-    ```
- 
-  - Go inside the main repository
-  
-    ```
-    $ cd ParticleGround-Portfolio
-    ```
-    
-  - Modify `index.html` to change the names and links to point at your pages.
-  
-  - Upload your resume in the place of `deedy.pdf` (Or One can use the famous deedy template and build on that)
-   
-# Particle Feature
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-The particle feature was obtained with the help of this [particleground](https://github.com/jnicol/particleground). The changes in the particles such as speed, drift, colour, direction, density, etc. can be modified in `demo.js`. Refer to the above link for more details.
+## Developing
 
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-# References and Inspiration
+```bash
+npm run dev
 
-This template is a minimal form of the [Particle Jekyll Template](https://github.com/nrandecker/particle).
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
